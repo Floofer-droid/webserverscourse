@@ -20,7 +20,10 @@
                 <div><input type="radio" name="brands"> Motorola </input></div>
                 <div><input type="radio" name="brands"> Suunto </input></div>
                 <div><input type="radio" name="brands"> Samsung </input></div>
-                <div><input type="textbox" pattern="^[a-zA-Z0-9_.-]*$"name="serialnum" required> what's the model number?</input></div>
+                <div>
+                    <label for="serialnum">what's the model number?</label>
+                    <input type="textbox" pattern="^[a-zA-Z0-9_.-]*$"name="serialnum" id="serialnum" required/>
+                </div>
                 <div><input type="submit"/></div>
             </form>
 
