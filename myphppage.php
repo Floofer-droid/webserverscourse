@@ -4,7 +4,7 @@
         <title>php page</title> 
     </head> 
     <body> 
-        <p><?= var_dump($_SERVER) ?></p>
+        <p>your user agent is <?= $_POST['HTTP_USER_AGENT']?></p>
     </body> 
 
 </html> 
