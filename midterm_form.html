@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>midterm_form</title> 
+    </head> 
+    <body> 
+        <h1>Order here!</h1>
+            <h2>Please select what to order and how many of them to order</h2>
+        <h1>what's your order?</h1>
+            <form action=midterm_response.php method=POST>
+                <div><input type="radio" name="product_name" value=Masks required> Masks </input></div>
+                <div><input type="radio" name="product_name" value=Visors required> Visors </input></div>
+                <div><input type="radio" name="product_name" value=Gowns required> Gowns </input></div>
+                <div>
+                    <label for="Quantity">How many do you want to order?</label>
+                    <input type="textbox" pattern="[0-9]+" name="Quantity" id="Quantity" required/>
+                </div>
+                <div><input type="submit"/></div>
+            </form>
+    </body> 
+</html> 
